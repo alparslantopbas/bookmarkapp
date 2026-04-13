@@ -6,18 +6,18 @@ A native macOS bookmark manager built with **SwiftUI** and **Core Data**, featur
 
 ## ✨ Features
 
-| Feature | Description |
-|---|---|
-| 📁 **Collections** | Organize bookmarks into nested groups (unlimited depth) |
-| 🌐 **Built-in Browser** | Multi-tab WebView powered by WKWebView |
-| ☁️ **iCloud Sync** | Automatic CloudKit sync across your Macs |
-| 🖱️ **Drag & Drop** | Drag URLs from Safari/Chrome/Edge directly into the app |
-| 📥 **Import** | Import bookmarks from Safari, Chrome, Edge, or Firefox (HTML format) |
-| 📤 **Export** | Export all bookmarks as a standard Netscape HTML file |
-| ⭐ **Favorites Bar** | Pin your most-visited bookmarks in a persistent top bar |
-| 🔍 **Metadata Fetching** | Automatically fetches page title, description, and screenshot |
-| ⌨️ **Keyboard Shortcuts** | Move collections up/down (`⌘↑ / ⌘↓`), delete all data (`⌘⇧D`) |
-| 🗂️ **Sidebar Navigation** | Three-column layout (Collections → Bookmarks → Browser) |
+| Feature                   | Description                                                          |
+| ------------------------- | -------------------------------------------------------------------- |
+| 📁 **Collections**        | Organize bookmarks into nested groups (unlimited depth)              |
+| 🌐 **Built-in Browser**   | Multi-tab WebView powered by WKWebView                               |
+| ☁️ **iCloud Sync**        | Automatic CloudKit sync across your Macs                             |
+| 🖱️ **Drag & Drop**        | Drag URLs from Safari/Chrome/Edge directly into the app              |
+| 📥 **Import**             | Import bookmarks from Safari, Chrome, Edge, or Firefox (HTML format) |
+| 📤 **Export**             | Export all bookmarks as a standard Netscape HTML file                |
+| ⭐ **Favorites Bar**      | Pin your most-visited bookmarks in a persistent top bar              |
+| 🔍 **Metadata Fetching**  | Automatically fetches page title, description, and screenshot        |
+| ⌨️ **Keyboard Shortcuts** | Move collections up/down (`⌘↑ / ⌘↓`), delete all data (`⌘⇧D`)        |
+| 🗂️ **Sidebar Navigation** | Three-column layout (Collections → Bookmarks → Browser)              |
 
 ---
 
@@ -34,7 +34,7 @@ A native macOS bookmark manager built with **SwiftUI** and **Core Data**, featur
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bookmarkapp.git
+git clone https://github.com/alparslantopbas/bookmarkapp.git
 cd bookmarkapp
 ```
 
@@ -60,9 +60,9 @@ Press **⌘R** in Xcode.
 
 The app uses a conditional build setting:
 
-| Build | Storage |
-|---|---|
-| **Debug** | Local Core Data (no iCloud required) |
+| Build       | Storage                                                               |
+| ----------- | --------------------------------------------------------------------- |
+| **Debug**   | Local Core Data (no iCloud required)                                  |
 | **Release** | `NSPersistentCloudKitContainer` (requires a valid CloudKit container) |
 
 To use iCloud sync in Release builds, you need to:
@@ -97,11 +97,11 @@ bookmarkapp/
 
 ## 🔑 Keyboard Shortcuts
 
-| Shortcut | Action |
-|---|---|
-| `⌘↑` | Move selected collection up |
-| `⌘↓` | Move selected collection down |
-| `⌘⇧D` | Delete all data (with confirmation) |
+| Shortcut | Action                              |
+| -------- | ----------------------------------- |
+| `⌘↑`     | Move selected collection up         |
+| `⌘↓`     | Move selected collection down       |
+| `⌘⇧D`    | Delete all data (with confirmation) |
 
 ---
 
@@ -149,3 +149,11 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 - Apple's [Core Data](https://developer.apple.com/documentation/coredata) & [CloudKit](https://developer.apple.com/documentation/cloudkit) frameworks
 - Apple's [WebKit](https://developer.apple.com/documentation/webkit) for the embedded browser
 - Inspired by Safari, Arc, and other Mac-native bookmark tools
+
+---
+
+## ☕ Support
+
+If you find this project useful and want to support its development, you can buy me a coffee!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/gkhntpbs)
