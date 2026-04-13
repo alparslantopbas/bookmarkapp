@@ -2,7 +2,6 @@
 //  TabManager.swift
 //  bookmarkapp
 //
-//
 
 import Foundation
 import SwiftUI

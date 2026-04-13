@@ -2,7 +2,6 @@
 //  FavoritesBar.swift
 //  bookmarkapp
 //
-//
 
 
 import SwiftUI

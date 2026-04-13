@@ -2,8 +2,6 @@
 //  SelectionManager.swift
 //  bookmarkapp
 //
-//  Created by Alparslan Topbas on 03.12.2025.
-//
 
 import SwiftUI
 import CoreData

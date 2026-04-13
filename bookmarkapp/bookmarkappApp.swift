@@ -2,8 +2,6 @@
 //  bookmarkappApp.swift
 //  bookmarkapp
 //
-//  Created by Alparslan Topbas on 29.11.2025.
-//
 
 import SwiftUI
 import CoreData

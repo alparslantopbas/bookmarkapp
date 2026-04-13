@@ -2,8 +2,6 @@
 //  BookmarkManager.swift
 //  bookmarkapp
 //
-//  Created by Alparslan Topbas on 29.11.2025.
-//
 
 import Foundation
 import WebKit
