@@ -7,12 +7,9 @@
 *.icloud
 
 # ============================================================
-# Xcode
+# Xcode — User-specific files
 # ============================================================
-
-# Build artifacts
-build/
-DerivedData/
+xcuserdata/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -22,58 +19,31 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
-# User-specific Xcode settings (NOT shared with team)
-xcuserdata/
-
-# Archives & exports
+# ============================================================
+# Xcode — Build artifacts
+# ============================================================
+build/
+DerivedData/
 *.xcarchive
 *.ipa
 *.dSYM.zip
 *.dSYM
 
-# Playgrounds
+# ============================================================
+# Xcode — Playgrounds
+# ============================================================
 timeline.xctimeline
 playground.xcworkspace
 
+# ============================================================
 # Swift Package Manager
+# ============================================================
 .swiftpm/config/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
 
 # ============================================================
-# Private / Sensitive Files
-# ============================================================
-
-# Export plist contains Team ID — keep out of public repo
-ExportOptions.plist
-
-# Shell scripts that reference local paths / personal workflows
-auto_import.sh
-debug-app.sh
-delete-database.sh
-export-for-testing.sh
-reload-xcode.sh
-simple-build.sh
-
-# Python helper scripts (personal sync tools, not part of the app)
-edge_to_bookmarks_sync.py
-edge_bookmark_watcher.py
-
-# ============================================================
-# Development-only Markdown notes (internal docs)
-# ============================================================
-DRAG_DROP_SYNC_FIXED.md
-EDGE_SYNC_README.md
-FAVORITES_PERFECT_SYNC.md
-FAVORITES_SYNC.md
-ORDER_INDEX_UPDATE.md
-RECURSIVE_DELETE.md
-WEBKIT_WARNINGS.md
-SECURITY_ANALYSIS.md
-SECURITY_IMPROVEMENTS.md
-
-# ============================================================
-# IDE / Editor config (project-local)
+# IDE / Editor config
 # ============================================================
 .qoder/
 
